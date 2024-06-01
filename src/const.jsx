@@ -1,1 +1,1 @@
-export const  BASE_URL = "https://bookstore-backend-5yvk.onrender.com/"
+export const  BASE_URL = "https://bookstore-backend-5yvk.onrender.com"
