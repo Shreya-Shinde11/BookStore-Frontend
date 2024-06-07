@@ -45,15 +45,15 @@ function Login() {
             {/* if there is a button in form, it will close the modal */}
             <Link
               to="/"
-              className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+              className="btn btn-sm btn-circle btn-ghost text-black absolute right-2 top-2"
               onClick={() => document.getElementById("my_modal_3").close()}
             >
               ✕
             </Link>
 
-            <h3 className="font-bold text-lg">Login</h3>
+            <h3 className="font-bold text-lg text-black">Login</h3>
             {/* Email */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-4 space-y-2 text-black">
               <span>Email</span>
               <br />
               <input
@@ -70,7 +70,7 @@ function Login() {
               )}
             </div>
             {/* password */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-4 space-y-2 text-black">
               <span>Password</span>
               <br />
               <input

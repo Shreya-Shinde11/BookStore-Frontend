@@ -94,5 +94,37 @@
         "price":200,
         "category":"Food",
         "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1716933535~exp=1716937135~hmac=4a5a461429136e8ff99a395cdc2b9e06288399020bf5a0773feb9fada73c67da&w=1480"
-    }
+    },
+    {
+            "id": 10,
+            "name": "The Hobbit",
+            "title": "A children's fantasy novel by English author J. R. R. Tolkien. It was published in 1937.",
+            "price": 15,
+            "category": "Fantasy",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81t2CVWEsUL.jpg"
+        },
+        {
+            "id": 20,
+            "name": "The Alchemist",
+            "title": "A novel by Brazilian author Paulo Coelho that was first published in 1988.",
+            "price": 10,
+            "category": "Adventure",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+        },
+        {
+            "id": 21,
+            "name": "One Hundred Years of Solitude",
+            "title": "A landmark 1967 novel by Colombian author Gabriel García Márquez that tells the multi-generational story of the Buendía family.",
+            "price": 13,
+            "category": "Magical Realism",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/91Kjqp2IbQL.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Don Quixote",
+            "title": "A Spanish novel by Miguel de Cervantes. It was published in two parts, in 1605 and 1615.",
+            "price": 12,
+            "category": "Classic",
+            "image": "https://images-na.ssl-images-amazon.com/images/I/81cpDaCJJCL.jpg"
+        }
 ]

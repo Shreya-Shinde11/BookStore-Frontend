@@ -15,21 +15,14 @@ function About() {
                 providing the best service and products to our customers.
               </p>
               <p className="text-lg mb-4">
-                Our mission is to [insert mission statement here]. We believe in
-                [insert belief or values here], and strive to [insert goal or
-                objective here].
+                Our mission is to aim to make reading and learning accessible to everyone, every day.
               </p>
               <p className="text-lg mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-                vehicula libero velit, quis vehicula ipsum ultrices nec. Proin
-                mattis vel odio sed sagittis. Integer vitae nisi nulla. Fusce
-                nec lacinia mi. Sed consequat enim in risus tincidunt, at tempor
-                sapien varius.
+              We are a team of book lovers and tech enthusiasts dedicated to providing a platform where you can explore, learn, and grow.
               </p>
               <p className="text-lg mb-4">
-                Nullam dictum consequat justo vel faucibus. Aliquam nec interdum
-                velit. Nulla facilisi. Curabitur in est luctus, mollis ex ut,
-                eleifend magna.
+              Founded in 2024, Book Store began as a small project and has grown into a vibrant community of readers and learners worldwide.
+Become part of our community. Follow us on social media and subscribe to our newsletter for updates and special offers.
               </p>
             </div>
           </div>

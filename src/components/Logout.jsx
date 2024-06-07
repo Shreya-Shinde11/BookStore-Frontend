@@ -1,9 +1,11 @@
 import React from "react";
 import { useAuth } from "../context/AuthProvider";
 import toast from "react-hot-toast";
-
+import { Link, useLocation, useNavigate } from "react-router-dom";
+ 
 function Logout() {
   const [authUser, setAuthUser] = useAuth();
+  
   const handleLogout = () => {
     try {
       setAuthUser({
@@ -12,13 +14,13 @@ function Logout() {
       });
       localStorage.removeItem("Users");
       toast.success("Logout successfully");
-
+ 
       setTimeout(() => {
         window.location.reload();
       }, 3000);
     } catch (error) {
       toast.error("Error: " + error);
-      setTimeout(() => {}, 2000);
+      setTimeout(() => {}, 3000);
     }
   };
   return (
@@ -27,10 +29,10 @@ function Logout() {
         className="px-3 py-2 bg-red-500 text-white rounded-md cursor-pointer"
         onClick={handleLogout}
       >
-        Logout
+        <Link to="/">Logout</Link>
       </button>
     </div>
   );
 }
-
+ 
 export default Logout;
