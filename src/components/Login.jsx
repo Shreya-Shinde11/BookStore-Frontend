@@ -92,7 +92,7 @@ function Login() {
               <button className="bg-pink-500 text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200">
                 Login
               </button>
-              <p>
+              <p className="text-black">
                 Not registered?{" "}
                 <Link
                   to="/signup"
